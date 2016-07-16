@@ -1,0 +1,50 @@
+<html>
+<style>
+			body { font-family: Arial; font-size: 20px ;}
+			a { text-decoration: none; color: #008; }
+			.logout a { color: #2554C7; font-size: 15px; }
+			.article { font-size: 1.2em; }
+			.like_site { font-size: 0.8em }
+		</style>
+<h1>
+
+Ruby application using Analytics Warehouse on Bluemix
+
+</h1>
+
+<p>
+
+This application is deployed on IBM's BlueMix and consumes the BlueMix Analytics Warehouse Service. The application uses the Analytics Warehouse service's GOSALES DataWarehouse OLAP cube to provide chart report views.
+
+</p>
+
+<hr>
+
+<div style="text-align:center"> 
+<p>
+<font face="verdana" color="black">
+<h3>Profit Statistics</h3>
+</font>
+</p>
+
+<%= @imgTag %>
+
+</br>
+</br>
+
+<form name="back" action="/" method="get" >
+    <input type="submit" value="Home" />  
+</form>
+</div>
+
+</br>
+<hr>
+
+<font size="4">
+This application uses the DB2 and googlecharts ruby gems.
+</br>
+The code of this application can be cloned from <a href="https://hub.jazz.net/project/praveendrl/rbbluaccl/overview">JazzHub</a>
+ 
+</font>
+
+</html>

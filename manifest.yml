@@ -1,0 +1,7 @@
+applications:
+- name: rbbluaccl
+  memory: 128M
+  host: rbbluaccl
+  domain: mybluemix.net
+  services:
+  - AnalyticsWarehouse_webinar
